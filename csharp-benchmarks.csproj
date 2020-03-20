@@ -6,4 +6,10 @@
     <RootNamespace>csharp_benchmarks</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="WithBenchmarkDotNet\**" />
+    <EmbeddedResource Remove="WithBenchmarkDotNet\**" />
+    <None Remove="WithBenchmarkDotNet\**" />
+  </ItemGroup>
+
 </Project>

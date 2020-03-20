@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithBenchmarkDotNet", "WithBenchmarkDotNet\WithBenchmarkDotNet.csproj", "{6FF3A347-8A08-4DE3-8ADE-48BBFF9C1B9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-benchmarks", "csharp-benchmarks.csproj", "{CD77BD47-1725-46C7-B9EC-1934DCE69A27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FF3A347-8A08-4DE3-8ADE-48BBFF9C1B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF3A347-8A08-4DE3-8ADE-48BBFF9C1B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF3A347-8A08-4DE3-8ADE-48BBFF9C1B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF3A347-8A08-4DE3-8ADE-48BBFF9C1B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD77BD47-1725-46C7-B9EC-1934DCE69A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD77BD47-1725-46C7-B9EC-1934DCE69A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD77BD47-1725-46C7-B9EC-1934DCE69A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD77BD47-1725-46C7-B9EC-1934DCE69A27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8CF4BC4-D47A-4217-96A8-E3930B4C9B7B}
+	EndGlobalSection
+EndGlobal
